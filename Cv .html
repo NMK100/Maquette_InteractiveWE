@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- ma page cv -->
+    <div class="cv" id="cv">
+        <!-- ma zone gauche -->
+        <aside class="zone-g">
+            <div class="profile">
+                <h2>NANTENIN KEITA</h2>
+                <p><i>Developpeuse fullStack</i></p>
+                <img src="image.jpg" alt="">
+            </div>
+            <!--contact -->
+            <div class="contact">
+                <h3> <i class="fa-solid fa-circle-user"> </i> CONTACT</h3>
+                <P><i class="fa-solid fa-phone"></i>  70-18-16-00</P>
+                <P><i class="fa-solid fa-location-dot"></i>  knanete@gmail.com</P>
+                <p><i class="fa-solid fa-globe"></i>   Missabougou</p>
+            </div>
+            
+            <!--mes diplomes-->
+            <div class="font2">
+            <div class="formation">
+                <h3> <i class="fa-solid fa-graduation-cap"></i> FORMATION</h3>
+                <h5> INSTITUT PRIVEE SMART</h5>
+                <P>LICENCE EN INFORMATIQUE DE GESTION [2020-2022]</P>
+                <h5>LYCEE BAMINATA COULIBALY</h5>
+                <P>BACCALAURAT MALIEN SESSION DE JUIN [2019]</P>
+            </div>
+            <!--references-->
+            <div class="references">
+                <h3> <i class="fa-solid fa-users"></i>  REFERENCES</h3>
+                <h5>SIRA SISSOKO</h5>
+                <P>Kalanba,ml<br>
+                Tel:+223-72-37-16-33<br>
+                Email:sira@gmail.com</P>
+                <h5>Amadou Bemba Cissé</h5>
+                <p>Faladié,ml<br>
+                Tel:+223-77-12-18-32<br>
+                Email:cisse@gmail.com</p>
+            </div>
+            
+        </div>
+        </aside>
+    
+        <!--ma partie droite-->
+        <main class="droite">
+            <section class="apropos" >
+                    <h3> <i class="fa-solid fa-user"></i>  A PROPOS DE MOI </h3> 
+                <p>Developpeuse full stack avec une experience de 03 ans  dans la création,le development et optimization de solution web. Passionnée par les innovation  technological, je m’adapte rapidement  aux nouveaux outils de language pour offrir des  applications web performantes et repondant aux bésoins précises des clients .</p>
+            </section>
+            <!--experience dans le domaine-->
+            <section class="experience">
+                <h3><i class="fa-solid fa-briefcase"></i>  EXPERIENCE PROFFESSIONNELLE</h3>
+                <p>Développeuse Full Stack senior, tech web solution, 2023-2025.<br>
+                     et déployement d’application web complexes de l’e-commerce et des services.<br>
+                     Collaboration étroite avec les équipes produits pour assurer la mise en place des solutions repondant aux bésoins des utilisateurs .
+                </p>
+            </section>
+                
+            <section class="competence">
+                <h3><i class="fa-solid fa-brain"></i>  COMPETENCE EN INFORMATIQUE</h3>
+                
+                <div class="infor">
+                    <div class="skill-name"> Java</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 90%;"></div>
+                    </div>
+
+                    <div class="skill-name">Python</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 50%;"></div>
+                    </div>
+                    
+                  
+                </div>
+            
+    
+            
+                <div class="infor">
+                    <div class="skill-name"> JavaScript</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 70%;"></div>
+                    </div>
+                    
+                    <div class="skill-name">Sql</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 65%;"></div>
+                    </div>
+                    
+                   
+                </div>
+
+
+                <div class="infor">
+                    <div class="skill-name">CSS</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 75%;"></div>
+                    </div>
+
+                     <div class="skill-name">HTML</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 80%;"></div>
+                    </div>
+                
+                    
+                </div>
+        
+            </section>
+            <section class="liste">
+                <div class="language">
+                    <h3><i class="fa-solid fa-language"></i> LANGAGE</h3>
+                    <ul>
+                        <li>Anglais</li>
+                        <li>Francais</li>
+                        <li>Espagnol</li>
+                        <li>Allemand</li>
+                    </ul>
+                </div>
+                
+                <div class="loisir">
+                    <h3><i class="fa-solid fa-icons"></i>  LOISIRS</h3>
+                    <ul>
+                        <li>Lecture</li>
+                        <li>Voyage</li>
+                        <li>Musique</li>
+                    </ul>
+                </div>
+            </section>
+            </div>
+        </main>
+    </div> 
+    <button> <a href="index .html"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></a></button>
+    <button onclick="telechargerCV() "><i class="fa-solid fa-cloud-arrow-down"></i></button>
+    <button class="btn" onclick="changerTheme()"><i class="fa-solid fa-fill-drip"></i></button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

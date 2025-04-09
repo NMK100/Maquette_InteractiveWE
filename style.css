@@ -1,0 +1,299 @@
+
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+/* #conteneur{
+width: 595px;
+height: 842;
+display: flex;
+} */
+
+ #corp{
+    background-color: darkgrey;
+    margin:0;
+    padding: 0;}
+
+
+#main-title{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 2, 27);
+    font-weight: solid;
+}
+#corp moi{
+    padding-left: 10px;
+}
+
+#accueil1 p{
+    margin-right: 60%;
+    margin-top: 0PX;
+}
+
+#im img{
+    margin: 0 auto 0 auto;  
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#but1{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    color: rgb(0, 2, 27);
+    margin: 0 auto;
+    border-radius: 15px; 
+    border-color:white ;
+}
+button{
+    color: rgb(32, 1, 58);
+    background-color: darkgrey;
+    width: 55px;
+    height: 55px;
+    border: 3px rgb(0, 2, 27) solid;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.cv{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    background:rgb(255, 255, 255);
+    
+}
+.zone-g{
+    width: 35%;
+    background-color: darkgrey;
+    /* text-align: center; */
+    margin-left: 10px ;
+}
+.profile{
+    width: 100%;
+    background-color: #434343;
+    border-radius: 0 0 40vh 40vh;
+    padding-top: 10%;
+    /* padding-left: 10px; */
+    margin: 0 auto;
+    color: white;
+}
+
+.profile img{
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+.profile h2{
+    margin: 10px 0 5px ;
+    font-size:  20px;
+    color: white;
+    padding-left: 10px;
+}
+.profile P{
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.formation{
+    padding-top: 15%;
+    padding-bottom: 12%;
+}
+.contact, .formation{
+    padding-left: 7%;
+    margin-top: 20 px;
+}
+.references{
+    padding-left: 7%;
+}
+.contact h3, .formation h3, .references h3{
+    font-size: 16px;
+}
+.contact h3{
+    padding-left: 08%;
+}
+.contact{
+    text-align: left;
+}
+
+.formation P, .references P{
+    font-size: 10px;
+}
+
+.formation i, .references i{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+.contact p{
+    opacity: 75%;
+    padding-left: 05%;
+    font-size: 12px;
+}
+
+h5{
+    font-size: 14px;
+}
+/* le deuxieme form à gauche en bas  */
+.font2{
+    height: 600px;
+    width: 92%;
+    background: #434343;
+    border-radius: 40vh 40vh 0 0;
+    padding-top:08%;
+    color: white;
+    text-align: left;
+    margin:0 auto; 
+}
+
+
+.droite{
+    width: 65%;
+    text-align: left;
+    padding-left: 18px; 
+    padding-right: 18px;
+     
+}
+/* la mise en forme des icones de la partie droite */
+.droite i{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+.apropos
+
+/* skill bar*/
+.infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.skill-name {
+font-size: 14px;
+margin: 5px 0;
+
+}
+/* restant du percent attribuer apres avoir enlever  */
+.bar-container {
+background-color: #eee;
+border-radius: 10px;
+overflow: hidden;
+height: 5px;
+width: 150px;
+margin-right: 20px;
+}
+.bar {
+height: 100%;
+background-color: black;
+width: 70%; /* ça s'ajuste selon le pourcentage de la compétence */
+}
+.loisir{
+
+margin-left: 40%;
+}
+
+.liste{
+display: flex;}
+
+/* pour le changement des couleurs des trois élélments(profile, font2 et les bar) */
+
+.theme-vert .profile {
+    background-color: #a4ec2f;
+    color: black;
+}
+
+.theme-vert .font2 {
+    background-color: #a4ec2f;
+    color: black;
+}
+
+.theme-vert .bar {
+    background-color: #a4ec2f;
+}
+
+
+.theme-Orange .profile {
+    background-color: #f3621f;
+    color: #ffe5e5;
+}
+
+.theme-Orange .font2 {
+    background-color: #f3621f;
+    color: white;
+}
+
+.theme-Orange .bar {
+    background-color: #f3621f;
+}
+
+.theme-maron .profile {
+    background-color: #4e1a01;
+    color: #ffe5e5;
+}
+
+.theme-maron .font2 {
+    background-color: #4e1a01;
+    color: white;
+}
+
+.theme-maron .bar {
+    background-color: #4e1a01;
+}
+
+.theme-bleu .profile {
+    background-color: hsl(209, 100%, 76%);
+    color: black;
+}
+
+.theme-bleu .font2 {
+    background-color: hsl(209, 100%, 76%);
+    color: black;
+}
+
+.theme-bleu .bar {
+    background-color: hsl(209, 100%, 76%);
+}
+
+
+
+/* pour que la page s'adapte à différent appareils et reduit la dimension des différents éléments une fois arrivé à la taille 510 */
+@media (max-width: 510px){
+    .profile img{
+        width: 60%;
+    } 
+
+    .contact p{
+        font-size: 10px;
+    }
+    .formation h3, .references h3{
+        font-size: 10px;
+    }
+    .references p{
+        font-size: 8px;
+    }
+    .language h3, .loisir h3{
+        font-size: 14px;
+        
+    }
+    .loisir{
+
+        margin-left: 20%;
+    }
+        
+    
+}
+ 
